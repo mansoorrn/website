@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Rn website</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+</head>
+<body>
+    <!--header-->
+    <header class="bg-gray-800 text-white py-4">
+      <nav class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold">My Website</a>
+        <div class="flex md:hidden">
+          <button type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
+            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="hidden md:flex md:items-center">
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-500">Home</a></li>
+            <li><a href="#" class="hover:text-gray-500">About</a></li>
+            <li><a href="#" class="hover:text-gray-500">Contact</a></li>
+          </ul>
+          <div class="ml-4">
+            <a href="#" class="inline-block px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 md:mt-0">Sign up</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--hero section-->
+    <section class="bg-gray-900 text-white">
+      <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="lg:flex lg:items-center lg:justify-between">
+          <div class="lg:w-1/2">
+            <h1 class="text-4xl font-bold leading-tight mb-4">Welcome to my website!</h1>
+            <p class="text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="inline-block bg-white text-gray-800 font-bold py-2 px-4 rounded hover:bg-gray-100">Learn more</a>
+          </div>
+          <div class="mt-8 lg:mt-0 lg:w-1/2">
+            <img class="w-full h-auto" src="https://picsum.photos/200" alt="Hero image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--information section-->
+    <section class="bg-white py-16">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+          <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Information Section</h2>
+          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <div class="mt-8">
+            <p class="text-xl text-gray-700 leading-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <ul class="mt-6 list-disc list-inside text-lg text-gray-700">
+              <li class="mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              </li>
+              <li class="mt-4">
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </li>
+              <li class="mt-4">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--services section-->
+    <section class="bg-gray-100">
+      <div class="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8">Our Services</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white shadow rounded-lg p-6">
+            <div class="mb-4">
+              <img src="https://picsum.photos/100" alt="Service 1" class="rounded-full">
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Service 1</h3>
+            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="bg-white shadow rounded-lg p-6">
+            <div class="mb-4">
+              <img src="https://picsum.photos/100" alt="Service 2" class="rounded-full">
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Service 2</h3>
+            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="bg-white shadow rounded-lg p-6">
+            <div class="mb-4">
+              <img src="https://picsum.photos/100" alt="Service 3" class="rounded-full">
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Service 3</h3>
+            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--about section-->
+    <section class="bg-gray-100">
+      <div class="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8">About Us</h2>
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+          <div class="mb-8 md:mb-0 md:w-1/2">
+            <img src="https://picsum.photos/200/300/?blur=2" alt="About Us" class="rounded-lg shadow">
+          </div>
+          <div class="md:w-1/2">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Story</h3>
+            <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="text-gray-700 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--testimonial section-->
+    <section class="bg-gray-100">
+      <div class="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8">Testimonials</h2>
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="p-4">
+              <p class="text-gray-700 mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <div class="flex items-center">
+                <img src="https://picsum.photos/200" alt="Testimonial Avatar" class="rounded-full mr-4">
+                <div>
+                  <h4 class="text-gray-800 font-bold">John Doe</h4>
+                  <p class="text-gray-700">CEO, Company Inc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="p-4">
+              <p class="text-gray-700 mb-4">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+              <div class="flex items-center">
+                <img src="https://picsum.photos/200" alt="Testimonial Avatar" class="rounded-full mr-4">
+                <div>
+                  <h4 class="text-gray-800 font-bold">Jane Doe</h4>
+                  <p class="text-gray-700">CTO, Company Inc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="p-4">
+              <p class="text-gray-700 mb-4">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+              <div class="flex items-center">
+                <img src="https://picsum.photos/200" alt="Testimonial Avatar" class="rounded-full mr-4">
+                <div>
+                  <h4 class="text-gray-800 font-bold">James Smith</h4>
+                  <p class="text-gray-700">COO, Company Inc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact us section-->
+    <section class="bg-gray-100">
+      <div class="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <div class="max-w-xl mx-auto">
+          <h2 class="text-3xl font-bold text-gray-800 mb-8">Contact Us</h2>
+          <form class="mb-8">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" class="w-full border border-gray-400 p-2 rounded-md focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" class="w-full border border-gray-400 p-2 rounded-md focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+              <textarea id="message" name="message" placeholder="Enter your message" rows="4" class="w-full border border-gray-400 p-2 rounded-md focus:outline-none focus:border-blue-500"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Send</button>
+            </div>
+          </form>
+          <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+      </div>
+    </section>
+    <!--footer section-->
+    <footer class="bg-gray-900 text-gray-300">
+      <div class="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        <div class="flex flex-wrap justify-between">
+          <div class="w-full md:w-1/4 mb-4 md:mb-0">
+            <h3 class="text-lg font-bold mb-2">Company Name</h3>
+            <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="w-full md:w-1/4 mb-4 md:mb-0">
+            <h3 class="text-lg font-bold mb-2">Links</h3>
+            <ul class="list-reset">
+              <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/4 mb-4 md:mb-0">
+            <h3 class="text-lg font-bold mb-2">Contact</h3>
+            <p class="text-gray-400">123 Main St<br>Anytown, USA 12345</p>
+            <p class="text-gray-400">info@example.com<br>(123) 456-7890</p>
+          </div>
+          <div class="w-full md:w-1/4">
+            <h3 class="text-lg font-bold mb-2">Follow Us</h3>
+            <div class="flex">
+              <a href="#" class="mr-4 text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="mr-4 text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="mr-4 text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="mr-4 text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-8 border-gray-800">
+        <div class="text-center">
+          <p class="text-sm text-gray-400">&copy; 2023 Company Name. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+
+</body>
+</html>
+    
